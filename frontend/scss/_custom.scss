@@ -8,3 +8,13 @@ $font-size-lg: 2rem;
 $gray: rgb(172, 172, 172);
 
 // End of variables
+
+// Spacer adding specified sizes
+
+$spacer: 1rem;
+$spacers: (
+  6: ($spacer * 6),
+  7: ($spacer * 12)
+);
+
+// End of spacer
