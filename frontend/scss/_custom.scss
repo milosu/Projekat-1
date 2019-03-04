@@ -18,3 +18,9 @@ $spacers: (
 );
 
 // End of spacer
+
+.previous-cr:hover{
+  cursor: pointer;
+  line-height: 1.3rem;
+  text-shadow: 2px 2px #c4c4c4;
+}
