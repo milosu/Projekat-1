@@ -48,7 +48,7 @@ gulp.task('font-copy', function () {
     './fonts/**/*.{otf,ttf,woff,woff2,svg,eot}'
   ];
   return gulp.src(fontPaths)
-      .pipe(gulp.dest('../web/fonts'));
+    .pipe(gulp.dest('../web/webfonts'));
 });
 
 // Images are compressed and output to our ../web/images directory
@@ -126,4 +126,4 @@ gulp.task ( 'watch', function () {
 });
 
 // Default task that includes fonts and other tasks in single run
-gulp.task('default', ['sass', 'javascript', 'images']);
+gulp.task('default', ['sass', 'javascript', 'font', 'images']);
