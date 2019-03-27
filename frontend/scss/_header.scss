@@ -1,5 +1,23 @@
-.hero-img{
-  background: url('../images/hero-img.png') no-repeat center right;
+.hero-img {
+  background: url("../images/hero-img.png") no-repeat center right;
   background-size: cover;
-  height: 110vh;
+  height: 120vh;
 }
+
+@include media-breakpoint-only(xs) {
+  .iq-section {
+    margin-top: 15rem;
+  }
+
+  .hero-img {
+    height: 0;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .hero-img {
+    background: none;
+    height: 100vh;
+  }
+}
+
