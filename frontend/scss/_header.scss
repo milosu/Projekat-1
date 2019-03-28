@@ -4,20 +4,12 @@
   height: 120vh;
 }
 
-@include media-breakpoint-only(xs) {
-  .iq-section {
-    margin-top: 15rem;
-  }
 
-  .hero-img {
-    height: 0;
-  }
-}
 
 @include media-breakpoint-down(md) {
   .hero-img {
     background: none;
-    height: 100vh;
+    height: 100%;
   }
 }
 
